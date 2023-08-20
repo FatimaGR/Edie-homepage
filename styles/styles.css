@@ -238,3 +238,35 @@ header .logo{
 .see-more a{
   color: var(--blue);
 }
+/* team styles */
+.team{
+  margin: 10% 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.team-information{
+  max-width: 280px;
+  color: var(--gray-2);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.team-images{
+  max-width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 4%;
+  align-items: center;
+}
+.team-images img{
+  border-radius: 24px;
+}
+.margin{
+  margin-bottom: 6%;
+}
+.subtitle{
+  color: var(--red);
+  font-size: 18px;
+}
