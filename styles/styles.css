@@ -192,3 +192,49 @@ header .logo{
   background-color: var(--blue);
   color: var(--white);
 }
+/* our works styles */
+.our-works{
+  margin: 10% 5%;
+}
+.our-works h2{
+  max-width: 448px;
+}
+.our-works .gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 5%;
+  height: auto;
+  box-sizing: border-box;
+}
+.work-card:nth-child(2n - 1){
+  margin-top: 200px;
+}
+.work-card{
+  gap: 12px;
+  color: var(--gray-1);
+  font-size: 24px;
+  font-weight: 500;
+}
+.work-card img{
+  border-radius: 24px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+.work-type{
+  font-size: 14px;
+  color: var(--gray-3);
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+.see-more{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  color: var(--blue);
+  font-size: 24px;
+}
+.see-more a{
+  color: var(--blue);
+}
