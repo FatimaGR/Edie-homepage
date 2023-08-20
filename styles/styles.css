@@ -8,6 +8,7 @@
   --gray-6: #F2F2F2;
   --blue: #2D9CDB;
   --red: #EB5757;
+  --green: #27AE60;
   --white: #FFFFFF;
 }
 *{
@@ -122,4 +123,72 @@ header .logo{
   cursor: pointer;
   padding: 11px 27.5px;
   font-size: 18px;
+}
+/* services styles */
+.services{
+  margin: 10% 5%;
+}
+.services h2{
+  max-width: 346px;
+  margin-bottom: 40px;
+}
+.contain-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+.service-card{
+  border-radius: 24px;
+  max-width: 341px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 34px;
+  color: var(--gray-2);
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.service-card:hover{
+  box-shadow: 0px 10px 30px 0px #3333331A;
+}
+.service-card .title{
+  color: var(--gray-1);
+  font-size: 24px;
+  font-weight: 700;
+}
+.service-card .background-icon{
+  width: 67px;
+  height: 67px;
+  padding: 15px;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+.service-card .icon{
+  font-size: 36px;
+  color: var(--white);
+}
+.design{
+  background-color: var(--blue);
+}
+.frontend{
+  background-color: var(--green);
+}
+.backend{
+  background-color: var(--red);
+}
+.service-card button{
+  background-color: var(--gray-5);
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  padding: 9px 12.5px;
+  font-size: 16px;
+  color: var(--gray-3);
+  cursor: pointer;
+}
+.service-card button:hover{
+  background-color: var(--blue);
+  color: var(--white);
 }
