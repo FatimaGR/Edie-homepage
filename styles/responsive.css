@@ -1,0 +1,90 @@
+@media (max-width: 865px){
+  .logo, h1, h2{
+    font-size: 24px;
+  }
+  header, main{
+    padding: 2%;
+  }
+  header ul li a{
+    font-size: 18px;
+  }
+  .home{
+    font-size: 12px;
+    gap: 30px;
+  }
+  .contact-form{
+    font-size: 10px;
+  }
+  .contact-input input,
+  .contact-input button{
+    font-size: 14px;
+  }
+  .home-title{
+    margin-left: 5%;
+    max-width: 275px;
+  }
+  .home-description{
+    margin-left: 5%;
+    max-width: 290px;
+    gap: 25px;
+  }
+  .our-works h2{
+    max-width: 270px;
+  }
+  .work-card{
+    font-size: 18px;
+  }
+  .work-type{
+    font-size: 12px;
+  }
+  .see-more{
+    font-size: 18px;
+  }
+  .team{
+    justify-content: center;
+  }
+  .team h2{
+    font-size: 36px;
+  }
+  .services,
+  .our-works,
+  .team
+  {
+    margin: 7% 2%;
+  }
+  footer .logo{
+    font-size: 36px;
+  }
+}
+@media (max-width: 600px){
+  .team{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .team-images{
+    max-width: 100%;
+  }
+  .contact{
+    flex-direction: column;
+    gap: 50px;
+  }
+  .our-works{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+  }
+  .our-works h2{
+    margin-left: 50px;
+  }
+  .our-works .gallery{
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
+  }
+  .work-card:nth-child(2n - 1){
+    margin-top: 0;
+  }
+  .see-more{
+    justify-content: flex-start;
+  }
+}
